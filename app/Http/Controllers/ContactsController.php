@@ -88,6 +88,7 @@ class ContactsController extends Controller
     {
       $groups = $this->getGroups();
       return view("contacts.create", compact('groups'));
+	  
     }
 
     public function edit($id)
