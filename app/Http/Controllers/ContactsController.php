@@ -87,7 +87,7 @@ class ContactsController extends Controller
     public function create()
     {
       $groups = $this->getGroups();
-      return view("contacts.create", compact('groups'));
+      return view("contacts.create", compact('groups', 'contact'));
 	  
     }
 

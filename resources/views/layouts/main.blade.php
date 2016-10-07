@@ -96,6 +96,7 @@
     {{ Html::script('assets/js/bootstrap.min.js') }}
     {{ Html::script('assets/js/jasny-bootstrap.min.js') }}
     {{ Html::script('assets/jqueryui/jquery-ui.min.js') }}
+    
     <script>
       $(function() {
         $("#term").autocomplete({
